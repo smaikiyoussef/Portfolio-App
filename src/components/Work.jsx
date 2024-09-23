@@ -2,6 +2,7 @@ import React from 'react'
 import Cap from '../assets/Capture.PNG'
 import Cap1 from '../assets/Capture1.PNG'
 import AboutImg from '../assets/about4.jpeg'
+import smkshop from '../assets/smkshop.PNG'
 
 const Work = () => {
   return (
@@ -29,8 +30,8 @@ const Work = () => {
                     <img src={Cap1} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110' />
                 </a>
 
-                <a href="/" className='group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80'>
-                    <img src={AboutImg} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110' />
+                <a href="https://smaikiyoussef.github.io/ecomerce-project/" className='group h-48 overflow-hidden rounded-lg shadow-lg md:col-span-2 md:h-80'>
+                    <img src={smkshop} alt='' className='h-full w-full object-cover object-center transition duration-200 group-hover:scale-110' />
                 </a>
 
                 <a href="/" className='group h-48 overflow-hidden rounded-lg shadow-lg md:h-80'>
